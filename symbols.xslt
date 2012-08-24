@@ -15,8 +15,8 @@ Email: 		will@nielsendigital.com
             <xsl:choose>
                 <xsl:when test="$name = 'apple-alt'">&#x2325;</xsl:when>
                 <xsl:when test="$name = 'apple-command'">&#x2318;</xsl:when>
+                <!-- apple-logo not guaranteed to work on non-apple systems -->
                 <xsl:when test="$name = 'apple-logo'">&#xF8FF;</xsl:when>
-                <!-- not guaranteed to work on non-apple systems -->
                 <xsl:when test="$name = 'apple-option'">&#x2325;</xsl:when>
                 <xsl:when test="$name = 'alt'">ALT</xsl:when>
                 <xsl:when test="$name = 'alt-key'">ALT</xsl:when>
